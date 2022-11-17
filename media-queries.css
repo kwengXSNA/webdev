@@ -27,7 +27,7 @@
 		grid-template-columns: 1fr 1fr;
 	}
 	.feature-2:first-child,
-	.feature-2:nth-child(3){
+	.feature-2:nth-child(3){ 
 		border-right: thin solid #f37d60;
 	}
 

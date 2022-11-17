@@ -22,4 +22,4 @@ function hideForm(){
 	let form = document.querySelector(".form-wrapper");
 	form.style.maxHeight = "";
 	/* Thats all */
-}
+} 
