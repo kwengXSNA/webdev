@@ -28,7 +28,7 @@
 	to set a maximum width of my page. -->
 	<div class="page">
 		
-		<!-- First i will plce my top bar -->
+		<!-- First i will place my top bar -->
 		<section class="top-bar">
 			<div class="brandname">
 				<img src="site-images/DCSM.png" alt="image of my logo">
@@ -37,9 +37,10 @@
 			<div class="social">
 				<span>Follow us</span>
 				<!-- Now i am going to use the boxicons library -->
-				<i class="bx bxl-twitter"></i>
-				<i class="bx bxl-facebook-circle"></i>
-				<i class="bx bxl-instagram-alt"></i>
+				<img class="bx" src="site-images/twitter logo.png" alt="">
+				<img style = "width:60px;height:45px" class="bx" src="site-images/instagram.png" alt="">
+				<img class="bx" src="site-images/facebook.png" alt="">
+				
 			</div>
 		</section>
 
@@ -64,63 +65,50 @@
 				<div class="section-description">
 					DCSM Resume Builder is a dynamic and up-to-date resume building tool that aims to aid job seekers in landing a job by creating a resume quickly using the featured templates in the system.
 				</div>
-				<!-- team members -->
-				<div class="content">
-					<div class="feature">
-						<div class="icon">
-							<img src="site-images/kevin.png" alt="image">
-							<!-- <i class="bx bxs-bar-chart-alt-2"></i> -->
+				<br>
+				<br>
+
+				
+				<!-- customer feedback -->
+				<div class = "cstmrfdbck" >
+					<h3>What our users say</h3>
+					<div style="display:flex" >
+						<div class="card" style="width: 16rem">
+							<img style="width:150px; height:150px; border-radius:50%" src="site-images/h.cavill.jpg" alt="">
+							<div class="card-body">
+							  <h5 class="card-title">Henry Cavill</h5>
+							  <h6 class="card-subtitle mb-2 text-muted">HR Intern, Steel Co.</h6>
+							  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+							  <!-- <a href="#" class="card-link">Card link</a>
+							  <a href="#" class="card-link">Another link</a> -->
+							</div>
 						</div>
-						<div class="description">
-							<div class="title">John Kevin Campanilla</div>
-							<div class="text">
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni asperiores, consectetur minima eum natus nesciunt laudantium laboriosam nisi pariatur tenetur.
+	
+						<div class="card" style="width: 16rem;">
+							<img style="width:150px; height:150px; border-radius:50%" src="site-images/t.maguire.jpg" alt="">
+							<div class="card-body">
+							  <h5 class="card-title">Toby Maguire</h5>
+							  <h6 class="card-subtitle mb-2 text-muted">Freelance Model</h6>
+							  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+							  <!-- <a href="#" class="card-link">Card link</a>
+							  <a href="#" class="card-link">Another link</a> -->
+							</div>
+						</div>
+						<div class="card" style="width: 16rem;">
+							<img style="width:150px; height:150px; border-radius:50%" src="site-images/d.radcliffe.jpg" alt="">
+							<div class="card-body">
+							  <h5 class="card-title">Daniel Radcliffe</h5>
+							  <h6 class="card-subtitle mb-2 text-muted">Data Analyst, Nowhere Corp.</h6>
+							  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+							  <!-- <a href="#" class="card-link">Card link</a>
+							  <a href="#" class="card-link">Another link</a> -->
 							</div>
 						</div>
 					</div>
-
-					<div class="feature">
-						<div class="icon">
-							<img src="site-images/clint.png" alt="image">
-						</div>
-						<div class="description">
-							<div class="title">Clint Anthony Savilla</div>
-							<div class="text">
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni asperiores, consectetur minima eum natus nesciunt laudantium laboriosam nisi pariatur tenetur.
-							</div>
-						</div>
-					</div>
-
-					<div class="feature">
-						<div class="icon">
-							<img src="site-images/junna.png" alt="image">
-						</div>
-						<div class="description">
-							<div class="title">Junnalyn Doning</div>
-							<div class="text">
-								Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-								Aliquam veritatis similique iusto enim provident nulla at odit quo.
-							</div>
-						</div>
-					</div>
-
-					<div class="feature">
-						<div class="icon"> 
-							<img src="site-images/tina.png" alt="image">
-						</div>
-						<div class="description">
-							<div class="title">Christina Mangapuro</div>
-							<div class="text">
-								<i class='bx bx-mobile'></i> 
-								Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-								Aliquam veritatis similique iusto enim provident nulla at odit quo.
-							</div>
-						</div>
-					</div>
-
+					
 				</div>
-			</div>
-
+				
+			
 			<!-- The second section -->
 			<div class="block-2">
 				<div class="feature-2">
@@ -176,59 +164,65 @@
 				</div>
 			</div>
 
-			<!-- The quotes section -->
-			<!-- Here i am going to use a bootstrap slider -->
-			<!-- Thats why i included the bootstrap framework in the head tags -->
-			<div id="my-slider" class="carousel slide" data-bs-interval="4000" data-bs-ride="carousel">
-				<div class="carousel-inner">
-					<div class="carousel-item active">
-						<div class="quote">
-							<p class="user-icon"><i class='bx bxs-user'></i></p>
+				<!-- team members -->
+				<div class="content">
+					<div class="feature">
+						<div class="icon">
+							<img class="devs" src="site-images/kevin.png" alt="image">
+							<!-- <i class="bx bxs-bar-chart-alt-2"></i> -->
+						</div>
+						<div class="description">
+							<div class="title">John Kevin Campanilla</div>
 							<div class="text">
-								<i class='bx bxs-quote-left'></i>
-								<p>
-									Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem modi consequuntur tempora suscipit reprehenderit illum sint doloremque! Id reiciendis asperiores, placeat provident, tempora incidunt hic.
-									<span class="name">- Peter Parker -</span>
-								</p>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni asperiores, consectetur minima eum natus nesciunt laudantium laboriosam nisi pariatur tenetur.
 							</div>
 						</div>
 					</div>
 
-					<div class="carousel-item">
-						<div class="quote">
-							<p class="user-icon"><i class='bx bxs-user'></i></p>
+					<div class="feature">
+						<div class="icon">
+							<img class="devs" src="site-images/clint.png" alt="image">
+						</div>
+						<div class="description">
+							<div class="title">Clint Anthony Savilla</div>
 							<div class="text">
-								<i class='bx bxs-quote-left'></i>
-								<p>
-									Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem modi consequuntur tempora suscipit reprehenderit illum sint doloremque! Id reiciendis asperiores, placeat provident, tempora incidunt hic.
-									<span class="name">- Toni Stark -</span>
-								</p>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni asperiores, consectetur minima eum natus nesciunt laudantium laboriosam nisi pariatur tenetur.
 							</div>
 						</div>
 					</div>
 
-					<div class="carousel-item">
-						<div class="quote">
-							<p class="user-icon"><i class='bx bxs-user'></i></p>
+					<div class="feature">
+						<div class="icon">
+							<img class="devs" src="site-images/junna.png" alt="image">
+						</div>
+						<div class="description">
+							<div class="title">Junnalyn Doning</div>
 							<div class="text">
-								<i class='bx bxs-quote-left'></i>
-								<p>
-									Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem modi consequuntur tempora suscipit reprehenderit illum sint doloremque! Id reiciendis asperiores, placeat provident, tempora incidunt hic.
-									<span class="name">- Steve Rogers -</span>
-								</p>
+								Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+								Aliquam veritatis similique iusto enim provident nulla at odit quo.
 							</div>
 						</div>
 					</div>
+
+					<div class="feature">
+						<div class="icon"> 
+							<img class="devs" src="site-images/tina.png" alt="image">
+						</div>
+						<div class="description">
+							<div class="title">Christina Mangapuro</div>
+							<div class="text">
+								<i class='bx bx-mobile'></i> 
+								Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+								Aliquam veritatis similique iusto enim provident nulla at odit quo.
+							</div>
+						</div>
+					</div>
+
 				</div>
+			</div>
+			
 
-				<button class="carousel-control-prev" type="button" data-bs-target="#my-slider" data-bs-slide="prev" >
-					<i class='bx bx-caret-left'></i>
-				</button>
-				<button class="carousel-control-next" type="button" data-bs-target="#my-slider" data-bs-slide="next" >
-					<i class='bx bx-caret-right'></i>
-				</button>
-
-			</div><!-- End of slider -->
+			
 
 
 			<!-- The contact form section -->
