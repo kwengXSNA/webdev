@@ -416,3 +416,19 @@ footer .terms a,
 footer .terms span{
     padding: 0 5px;
 }
+
+/*customer image*/
+.customer{
+    width:150px; 
+    height:150px; 
+    border-radius:50%;
+    margin-right: 25%;
+    margin-left: 25%;
+    margin-top: 10%;
+}
+
+.cstmrfdbck{
+    align-items:center;
+    margin-right:100%-24rem;
+    margin-left:100%-24rem;
+}
